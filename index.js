@@ -14,7 +14,7 @@ readStream
     console.log([csvResults.length - 1]);
     for (var i = 0; i < csvResults.length; i = i + 1) {
       console.log(csvResults[i]._1.trim());
-      console.log(i);
+      //   console.log(i);
       console.log(csvResults[i]._1.trim().split(" "));
     }
   });
